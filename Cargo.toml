@@ -1,0 +1,11 @@
+[package]
+name = "cuckoo"
+version = "0.1.0"
+authors = ["Keno Schwalb <caerostris@gmail.com>"]
+
+[dependencies]
+restful = { path = "../restful", version = "^0.1" }
+restful_derive = { path = "../restful/restful_derive", version = "^0.1" }
+serde = "^1.0"
+serde_derive = "^1.0"
+error-chain = "0.11"
